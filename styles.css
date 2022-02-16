@@ -55,11 +55,9 @@ body,html {
             margin-top: 8px
         }
 
-        /* .display {
-            border: solid 12px black;
-        } */
-  
         #box8 {
             flex-grow: 1;
             border: solid 1px black;
         }
+
+        

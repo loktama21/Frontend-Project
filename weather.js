@@ -1,18 +1,4 @@
-setInterval(function(){
-    let dateClass = document.querySelector('.date');
-    let time = document.querySelector('.time');
-    let todayDate = new Date();
-    let months = ['JAN', 'Feb', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
-    let date = todayDate.getDate();
-    let month = months[todayDate.getMonth()];
-    let year = todayDate.getFullYear();
-    let hr = todayDate.getHours();
-    let min = todayDate.getMinutes();
-    let sec = todayDate.getSeconds();
-    dateClass.innerHTML = 'Date: ' + date + ' ' + month + ' ' + year;
-    time.innerHTML = 'Time: ' + hr + ':' + min + ':' + sec;
-}, 1000);
-
+//for weather app 
 let inputValue = document.querySelector('.inputValue');
 let button = document.querySelector('.button');
 let name = document.querySelector('.name');
