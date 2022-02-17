@@ -12,10 +12,16 @@ body,html {
         }
   
         #row1 {
-            padding: 10px;
-            height: 30px;
-            line-height: 30px;
-            border: solid 1px green
+            padding: 1px;
+            line-height: 10px;
+            border: solid 1px #252625;
+            font-weight: bold;
+            background-color: chocolate;
+        }
+        
+        #row1 p {
+            text-align-last: center;
+            font-size: x-large;
         }
   
         #column {
@@ -43,10 +49,6 @@ body,html {
             color: White;
         }
 
-        /* #todo {
-            text-align: justify;
-        } */
-  
         .middle-column {
             flex-grow: 1;
             display: flex;
@@ -56,17 +58,16 @@ body,html {
   
         .middle-column div {
             flex-grow: 1;
-            margin: 0 8px;
+            margin: 0 2px;
             border: solid 1px rgb(58, 58, 59);            
-            /* background-color: rgb(200, 204, 206); */
             background-color: rgb(176, 176, 181);
             height: 30vh;
             color: rgb(40, 39, 44);
-            font-size: 12px;
+            font-size: 14px;
         }
   
         .middle-column div+div {
-            margin-top: 8px
+            margin-top: 2px
         }
 
         #col3 {
