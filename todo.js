@@ -5,8 +5,11 @@ let displayToDo = document.querySelector('.to-dos');
 
 addButton.addEventListener('click', function(){
     let newPara = document.createElement('li');
+    
     newPara.innerHTML = input.value;
+    if(newPara.innerHTML !== ''){
     displayToDo.appendChild(newPara);
+    }
     input.value = '';
 
     newPara.addEventListener('click', function(){

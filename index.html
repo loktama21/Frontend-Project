@@ -8,53 +8,57 @@
 </head>
 <body>
     <div class="box-wrapper">
-        <div id="box1">
-            GeeksforGeeks 1
+        <!-- row start -->
+        <div id="row1">
+            <header>My Day Organizer</header>
         </div>
-  
-        <div id="box2">
-            GeeksforGeeks 2
-        </div>
-  
-        <div id="box3">
-            <div id="box4">
-                Box 4
-                <h2>To Do List</h2>
+        <!-- row end -->
+        <div id="column">
+            <!-- Col 1 start-->
+            <div id="col1">
+                <label for="todo" id="todo">To Do List</label>
+                <!-- <h2>To Do List</h2> -->
                 <div class="container">
                     <input type="text" id="inputField">
-                    <button id="addToDo">Add</button>
-                    <div class="to-dos">
-
-                    </div>
+                    <button id="addToDo">Add Task</button>
+                        <div class="to-dos">    
+                        </div>
                 </div>
             </div>
+            <!-- Col 1 end -->
+            <!-- Col 2 start -->
             <div class="middle-column">
-                <div id="box5">
-                    Box 5 
+                <div id="col21">
                     <h1 class="date"></h1>
                     <h1 class="time"></h1>
                 </div>
-                <div id="box6">
-                    Box 6
+                <div id="col22">
                     <input type="text" class="inputValue" placeholder="Enter a name of city">
                     <input type="submit" class='button' value="Submit">
-                    <div class="display">
+                    <p class="display">
                         <h2 class="name"></h2>
                         <h2 class="temp"></h2>
-                    </div>
-                </div>
-                <div id="box7">
-                    GeeksforGeeks 7
+                    </p>
                 </div>
             </div>
-            <div id="box8">
-                GeeksforGeeks 8
+            <!-- col 2 end -->
+            <!-- col 3 start -->
+            <div id="col3">
+                <h1>Check Stock Price</h1>
+                <input type="text" class="stockValue" placeholder="Type stock symbol">
+                <button type="button" onclick="loadDoc()">Submit</button>
+                <p id="stockSymbol"></p>
+                <p id="stockPrice"></p>
+                <p id="stockChangePer"></p>
+                <p id="stockVolume"></p>    
             </div>
+            <!-- col 3 end -->
         </div>
     </div>
     
     <script src="time.js"></script>
     <script src="todo.js"></script>
     <script src="weather.js"></script>
+    <script src="stocks.js"></script>
 </body>
 </html>
