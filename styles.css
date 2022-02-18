@@ -78,8 +78,10 @@ body,html {
         }
 
         h2 {
-            background-color: #626662;
+            background-color: #939793;
             text-align: center;
+            margin-top: 0;
+            margin-bottom: 2px;
         }
 
 
