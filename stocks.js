@@ -17,9 +17,9 @@ function loadDoc() {
         document.getElementById("stockVolume").innerHTML = 'Volume: ' + vol;
 
         if(newPerChange < 0){
-            document.getElementById("stockChangePer").style.backgroundColor = 'red';
+            document.getElementById("stockChangePer").style.color = 'red';
         } else{
-            document.getElementById("stockChangePer").style.backgroundColor = 'green';
+            document.getElementById("stockChangePer").style.color = 'green';
         }
     }
 
