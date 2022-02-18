@@ -15,8 +15,8 @@ function getTime(){
     min = (min<10?'0':'')+ min;
     let sec = todayDate.getSeconds();
     sec = (sec<10?'0':'')+ sec;
-    time.innerHTML = 'Time: ' + hr + ':' + min + ':' + sec;
-    return time.innerHTML;
+    time.innerHTML = hr + ':' + min + ':' + sec;
+    return time;
 }
 
 function getDate(){
@@ -25,8 +25,8 @@ function getDate(){
     let date = todayDate.getDate();
     let month = months[todayDate.getMonth()];
     let year = todayDate.getFullYear();
-    dateClass.innerHTML = 'Date: ' + date + ' ' + month + ' ' + year;
-    return dateClass.innerHTML;
+    dateClass.innerHTML = date + ' ' + month + ' ' + year;
+    return dateClass;
 }
 
 

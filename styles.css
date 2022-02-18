@@ -78,10 +78,15 @@ body,html {
         }
 
         h2 {
-            background-color: #939793;
+            background-color: #4e4e3d;
             text-align: center;
             margin-top: 0;
             margin-bottom: 2px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 75px;
         }
 
 
